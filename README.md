@@ -5,16 +5,18 @@ cd VerifySHA256
 chmod +x ./verifySha256
 ```
 
-### Use
+### Mac/Linux
 ```
 Mac/Linux
 ./verifySha256 /path/to/ISO
+```
 
-Windows
+### Windows
+```
 Comment out shasum statement
-Uncomment certUtil statement:
+Uncomment certUtil statement
 
-certUtil -hashfile C:/path/to/ISO SHA256
+./verifySha256 /path/to/ISO
 ```
 
 
