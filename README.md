@@ -7,9 +7,14 @@ chmod +x ./verifySha256
 
 ### Use
 ```
+Mac/Linux
 ./verifySha256 /path/to/ISO
 
-Only usable on Macintosh/Linux/CentOS
+Windows
+Comment out shasum statement
+Uncomment certUtil statement:
+
+certUtil -hashfile C:/path/to/ISO SHA256
 ```
 
 
